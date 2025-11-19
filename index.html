@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="dk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +10,19 @@
 <body>
 
     <form id ="kontaktSkjema">
-        <label for="navn">Navn:</label>
-        <input type="text" id="name" name="navn">
+
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name">
+         <p id="nameResponse"></p>
         
-        <label for="epost">E-post:</label>
-        <input type="email" id="email" name="epost">
+        <label for="email">E-Mail:</label>
+        <input  type="email" id="email" name="email">
         
-        <label for="melding">Melding:</label>
-        <textarea id="message" name="message"></textarea>
         
-        <button id="submit" >Send</button>
+
+        <p id="response"></p>
+        
+        <button id="submit">tilmeld</button>
 
     </form>
     
